@@ -4,7 +4,7 @@
 // ========== Circular Progress Bar =============
 window.addEventListener('DOMContentLoaded', () => {
   // Animate circular progress bar to 69%
-  const progress = 85; // Target percent
+  const progress = 88; // Target percent
   const circle = document.getElementById('progressBar');
   const progressText = document.getElementById('progressText');
   let current = 0;
@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // ========== Leaderboard Data =============
   const students = [
-    'Nirali Kankane', 'Amarnath Jogi', 'Geetanjali Kaushal', 'Aditya Kapse','Narendra Yadav','Samarth Thakre','Vansh Gupta','Vishakha Chauhan','Shruti Pardeshi','Shorya Agarwal','Shehzan Khan','Ayush Sahu','Rizwan Sheikh','Rohit Rajure','Prakhar Keshniya','Gaurav Pandey','Akanksha Mishra','Nakul Rathore','Hasan Malubhaiwala','Saloni Patidar','Priyank Mehta','Harshvardhan Singh Ranawat','Preyansh Pandey','Muskan Regar','Vivek Vishwakarma','Madhavi Kushwah','Rashi Bhawsar','Aarshi Soni','Divya Shukla','Lokesh Kumar','Anushka Porwal','Aarushi Shukla','Sneha Singh','Anandita Arora','Shivanurag Yayavaram','Rakshita Patil','Rohan Sharma','Kanha Dhangar','Preeti Salaria','Saanvi Gupta','Pragyesh Chouhan','Khushi Lowanshi','Anmol Malviya','Gaurang Chouhan','Shivangi Barwal','Prachi Katiyar','Ishita Malviya','Niharika Chouhan','Lakshya Gour','Nitin Sahu','Parth Patil','Anish Kumar','Mahima Kale','Harshita Upadhyay','Vinayak Singh Ranawat','Aashutosh Pandey','Varsha Punase','Hritik Jaiswal','Harshit Patidar','Om Shankar Mishra','Mohd Ayyub Khan','Priyanshi Patidar','Krish Patidar','Siddhi Khatri','Nikhil Soni','Anmol Pandey','Shivam Raikwar','Kajal Kumawat','Nishant Thakor','Mahi Trivedi','Naitik Shrivastava','Khushi Raut','Sujal Sharma','Mansi Kumawat','Sarthak Gupta','Neha Tanwar','Chandrashekhar Suryawanshi','Hafsa Fatma','Mohammad Touqeer Khan','Yash Yadav','Pradeep Chawda','Indresh Mourya','Suryansh Choudhary','Kashish Kumawat','Nikunj Tiwari'
+    'Nirali Kankane', 'Amarnath Jogi', 'Geetanjali Kaushal', 'Aditya Kapse','Narendra Yadav','Samarth Thakre','Vansh Gupta','Vishakha Chauhan','Shruti Pardeshi','Shorya Agarwal','Shehzan Khan','Ayush Sahu','Rizwan Sheikh','Rohit Rajure','Prakhar Keshniya','Gaurav Pandey','Akanksha Mishra','Nakul Rathore','Hasan Malubhaiwala','Saloni Patidar','Priyank Mehta','Harshvardhan Singh Ranawat','Preyansh Pandey','Muskan Regar','Vivek Vishwakarma','Madhavi Kushwah','Rashi Bhawsar','Aarshi Soni','Divya Shukla','Lokesh Kumar','Anushka Porwal','Aarushi Shukla','Sneha Singh','Anandita Arora','Shivanurag Yayavaram','Rakshita Patil','Rohan Sharma','Kanha Dhangar','Preeti Salaria','Saanvi Gupta','Pragyesh Chouhan','Khushi Lowanshi','Anmol Malviya','Gaurang Chouhan','Shivangi Barwal','Prachi Katiyar','Ishita Malviya','Niharika Chouhan','Lakshya Gour','Nitin Sahu','Parth Patil','Anish Kumar','Mahima Kale','Harshita Upadhyay','Vinayak Singh Ranawat','Aashutosh Pandey','Varsha Punase','Hritik Jaiswal','Harshit Patidar','Om Shankar Mishra','Mohd Ayyub Khan','Priyanshi Patidar','Krish Patidar','Siddhi Khatri','Nikhil Soni','Anmol Pandey','Shivam Raikwar','Kajal Kumawat','Nishant Thakor','Mahi Trivedi','Naitik Shrivastava','Khushi Raut','Sujal Sharma','Mansi Kumawat','Sarthak Gupta','Neha Tanwar','Chandrashekhar Suryawanshi','Hafsa Fatma','Mohammad Touqeer Khan','Yash Yadav','Pradeep Chawda','Indresh Mourya','Suryansh Choudhary','Kashish Kumawat','Nikunj Tiwari','Rishabh Kushwah','Vaishnavi Singh','Om Upadhyay'
   ];
   const leaderboardList = document.getElementById('leaderboardList');
   const searchInput = document.getElementById('leaderboardSearch');
@@ -151,6 +151,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
 
 
 
